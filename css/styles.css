@@ -168,6 +168,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5px 0px;
 }
 
 .requests-header h2 {
@@ -219,6 +220,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5px 0px;
 }
 
 .your-header h2 {
