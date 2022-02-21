@@ -25,7 +25,13 @@
 }
 
 .nav-links li {
+  list-style-type: none;
+  color: white;
   margin: 20px;
+}
+
+.nav-links a {
+  color: white;
 }
 
 .nav-links li h1 {
@@ -34,6 +40,7 @@
 }
 
 .nav-button {
+  background-color: teal;
   width: 135px;
   height: 40px;
   margin: auto;
@@ -43,7 +50,6 @@
   width: 70%;
   margin: 100px 218.5px;
   height: 900px;
-  border: 1px solid gray;
   display: flex;
 }
 
@@ -51,7 +57,6 @@
   display: flex;
   flex-direction: column;
   flex: 2;
-  border: 1px solid gray;
   padding: 20px;
 }
 
@@ -149,7 +154,111 @@ p {
   display: flex;
   flex-direction: column;
   flex: 1;
-  border: 1px solid gray;
   padding: 20px;
 }
 
+.connection-requests {
+  border: 1px solid gray;
+}
+
+.requests-header {
+  background: black;
+  color: white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.requests-header h2 {
+  font-size: large;
+  display: flex;
+}
+
+.pDos {
+  border: none;
+  background-color: gray;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.requests-body {
+  display: flex;
+  justify-content: center;
+}
+
+.requests-body img {
+  width: 25px;
+}
+
+.requests-body li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.ul-requests {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.your-connections {
+  border: 1px solid gray;
+  margin-top: 40px;
+}
+
+.your-header {
+  background: black;
+  color: white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.your-header h2 {
+  font-size: large;
+  display: flex;
+}
+
+.pQuinientos {
+  background-color: gray;
+  border-radius: 20px;
+  width: 46px;
+}
+
+.your-body img {
+  width: 25px;
+  margin-right: 53px;
+}
+
+.your-body li {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+}
+
+.ul-your {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.foot-body {
+  border-top: 1px solid gray;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.foot-body a {
+  color: blue;
+}
