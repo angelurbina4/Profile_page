@@ -32,7 +32,7 @@
             <img src="img/user-circle.png" alt="Imagen de Usuario" class="imgUsuario">
           </div>
           <div class="card-body">
-            <h1>Ángel Urbina</h1>
+            <h1 id="name" >Ángel Urbina</h1>
             <h3>
               <img src="img/map-marker.png" alt="icono maps" class="icono">
               Chile
@@ -42,7 +42,7 @@
               Master of shadows and the Internet
             </p>
             <p class="pEnlace">
-              <a href="https://google.com">
+              <a class="changeUser" onclick="change(this)" href="#">
                 <img src="img/gear.png" alt="iconogear" class="icono">
                 Editar perfil
               </a>
@@ -80,16 +80,16 @@
                 <img src="img/images/todd-s.jpg" alt="Perfil Todd">
                 Todd E
                 <div>
-                  <img src="img/icons/accept-circle.png" alt="accept circle">
-                  <img src="img/icons/close-circle.png" alt="close circle">
+                  <img class="buttonRemove" onclick="removeList(this)"  src="img/icons/accept-circle.png" alt="accept circle">
+                  <img class="buttonRemove" onclick="removeList(this)" src="img/icons/close-circle.png" alt="close circle">
                 </div>
               </li>
               <li>
                 <img src="img/images/phil-s.jpg" alt="Perfil Phil">
                 Phil K
                 <div>
-                  <img src="img/icons/accept-circle.png" alt="accept circle">
-                  <img src="img/icons/close-circle.png" alt="close circle">
+                  <img class="buttonRemove" onclick="removeList(this)" src="img/icons/accept-circle.png" alt="accept circle">
+                  <img class="buttonRemove" onclick="removeList(this)" src="img/icons/close-circle.png" alt="close circle">
                 </div>
               </li>
             </ul>
@@ -104,22 +104,22 @@
           </div>
           <div class="your-body">
             <ul class="ul-your"> 
-              <li>
+              <li onclick="decrease(this)">
                 <img src="img/images/adrien-s.jpg" alt="perfil adrien">
                 Adrien D
               </li>
-              <li>
+              <li  onclick="decrease(this)">
                 <img src="img/images/anne-s.jpg" alt="perfil anne">
                 Anne D
               </li>
-              <li>
+              <li  onclick="decrease(this)">
                 <img src="img/images/alayne-s.jpg" alt="perfil alayne">
                 Alayne T
               </li>
-              <li>
+              <li  onclick="decrease(this)">
                 <img src="img/images/arry-s.jpg" alt="perfil arry">
                 Arry Y
-              </li>
+              </li  onclick="decrease(this)">
             </ul>
             <div class="foot-body">
               <a href="#">View More</a>
@@ -129,6 +129,7 @@
       </div>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
